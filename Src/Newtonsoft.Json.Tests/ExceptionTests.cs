@@ -43,7 +43,7 @@ namespace Newtonsoft.Json.Tests
         public void JsonSerializationException()
         {
             JsonSerializationException exception = new JsonSerializationException();
-            Assert.AreEqual("Exception of type 'Newtonsoft.Json.JsonSerializationException' was thrown.", exception.Message);
+            Assert.AreEqual("1Exception of type 'Newtonsoft.Json.JsonSerializationException' was thrown.", exception.Message);
 
             exception = new JsonSerializationException("Message!");
             Assert.AreEqual("Message!", exception.Message);
