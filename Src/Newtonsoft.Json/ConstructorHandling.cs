@@ -23,7 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-1namespace Newtonsoft.Json
+namespace Newtonsoft.Json
 {
     /// <summary>
     /// Specifies how constructors are used when initializing objects during deserialization by the <see cref="JsonSerializer"/>.
